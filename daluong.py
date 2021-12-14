@@ -33,9 +33,9 @@ def func(number):
         # time.sleep(2)
         driver.find_element_by_id("pass").send_keys(Keys.ENTER)
     if ( (number == 4) or (number == 5)):
-        driver.find_element_by_id("email").send_keys("bumbum26.4")
+        driver.find_element_by_id("email").send_keys("email")
         time.sleep(2)
-        driver.find_element_by_id("pass").send_keys("yeubabynguyetabcxyz@@@")
+        driver.find_element_by_id("pass").send_keys("pass")
         # time.sleep(2)
         driver.find_element_by_id("pass").send_keys(Keys.ENTER)
     # if (number == 0):
